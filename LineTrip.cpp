@@ -21,7 +21,6 @@ int main() {
         for (int i = 1; i < points.size(); ++i) {
             required_tank = max(required_tank, points[i] - points[i - 1]);
         }
-
         cout << required_tank << endl;
     }
     return 0;
