@@ -25,4 +25,4 @@ int main() {
         cout << required_tank << endl;
     }
     return 0;
-}
+  }
