@@ -13,7 +13,7 @@ int main() {
             long long a;
             cin >> a;
             points.push_back(a);
-        }
+    }
         points.push_back(x);  
         sort(points.begin(), points.end());  
 
